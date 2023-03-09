@@ -48,6 +48,14 @@ After running the application, users can enter the name of a city into the searc
 
 The application is tested using Jest and React Testing Library. To run the tests, use the command `yarn test`.
 
+# Continuous Integration/Continuous Deployment (CI/CD) Process
+
+This project uses `Github Actions` for its `CI/CD` process. Whenever a Pull Request is opened, the `CI` process is triggered. The `CI` process includes linting, testing, and building the code to ensure that it meets the project's standards.
+
+As of now, the workflow for building and deploying the main branch is not yet implemented. This will be added in the future.
+
+To view the configuration for the Github Actions, check the `.github/workflows` directory in the project's repository.
+
 # Conclusion
 
 Weather App is a simple yet useful application that provides users with a 5-day forecast for any city. The application is built using modern technologies, and the code is formatted and linted for maintainability.
